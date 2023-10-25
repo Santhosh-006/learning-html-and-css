@@ -6,30 +6,26 @@ body{
     color: #fff;
     font-family: 'Kanit', sans-serif;
 }
-.head img{
-    
-    position: relative;
-    width: 100%;
-    /* height: 100%; */
-    box-sizing:border-box;
-    opacity: 0.3;
-}
+
 .head h1{
+    margin: 0;
+    padding: 0;
     font-family: 'Tilt Neon', sans-serif;
     font-size: 40px;
     /* font-weight: 200px; */
     color: #fff;
-    position: absolute;
-    top: 17%;
-    left: 15%;
-    z-index: 1;
+    background-image: url(../image/bgi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50px;
+    text-align: center;
 }
 .navbar{
     position: sticky;
     top: 0%;
     display: flex;
     justify-content: flex-end;
-    background-color: tomato;
+    background-color: lightskyblue;
     /* padding: 5px; */
     
 }
@@ -77,6 +73,54 @@ body{
     background-color: #fff;
     color: #000;
     transition: 0.3s ease 0s;
+}
+.intro{
+    padding: 15px;
+    color: lightskyblue;
+}
+.intro h2{
+    color:lightskyblue;
+    font-size: 40px;
+    font-weight: 100px;
+    text-align: center;
+}
+.intro p{
+    padding: 10px;
+    font-size: 25px;
+}
+.card1{
+    display: flex;
+}
+.cards1 {
+    padding: 20px;
+    margin: 10px;
+    background-color:rgb(39, 39, 39);
+    border: 1px solid lightskyblue;
+    border-radius: 30px;
+    max-width: 400px;
+    box-shadow:5px 5px 10px #000;
+}
+.card2{
+    display: flex;
+}
+.cards2{
+    padding: 20px;
+    margin: 10px;
+    background-color:rgb(39, 39, 39);
+    border: 1px solid lightskyblue;
+    border-radius: 30px;
+    max-width: 400px;
+    box-shadow:5px 5px 10px #000;   
+}
+.card1 .cards1:hover{
+    cursor: pointer;
+    box-shadow:5px 5px 10px #fff;
+    transform: translateY(-2%);
+}
+.card2 .cards2:hover{
+    cursor: pointer;
+    box-shadow:5px 5px 10px #fff;
+    transform: translateY(-2%);
 }
 /* .table table{
    width: 100%;
