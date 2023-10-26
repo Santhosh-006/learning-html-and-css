@@ -1,24 +1,25 @@
-body{
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+body{
     background-color: rgb(39, 39, 39);
     /* font-family:Georgia, 'Times New Roman', Times, serif; */
     color: #fff;
     font-family: 'Kanit', sans-serif;
 }
-
-.head h1{
-    margin: 0;
-    padding: 0;
-    font-family: 'Tilt Neon', sans-serif;
-    font-size: 40px;
+.top{
     /* font-weight: 200px; */
     color: #fff;
     background-image: url(../image/bgi.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 50px;
+}
+.top h1{
     text-align: center;
+    padding: 20px 10px;
 }
 .navbar{
     position: sticky;
@@ -26,7 +27,9 @@ body{
     display: flex;
     justify-content: flex-end;
     background-color: lightskyblue;
-    /* padding: 5px; */
+    padding-right: 0px;
+    z-index: 9999;
+    padding: 12px 10px;
     
 }
 
@@ -35,7 +38,7 @@ body{
     font-size: 20px;
 }
 .navbar h1 a{
-    
+    padding: 20px;
     text-decoration: none;
     color: #fff;
 }
@@ -73,6 +76,43 @@ body{
     background-color: #fff;
     color: #000;
     transition: 0.3s ease 0s;
+}
+ .content{
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+}
+.content p{
+    margin: 30px;
+    font-size: 25px;
+    justify-content: center;
+    color: lightskyblue;
+    text-align: justify;
+    line-height: 1.5;
+}
+.content img{
+    margin-top: 30px;
+    border-radius: 50px;
+
+}
+.description{
+    display: flex;
+    margin: 30px;
+}
+.description iframe{
+    margin: 20px;
+    width:24opx;
+    border-radius: 20px;
+    padding-top: 30px;
+}
+.description p{
+    margin: 30px;
+    color: lightskyblue;
+    font-size: 25px;
+    line-height: 1.5;
+    width: 85%;
+    justify-content: center;
+    text-align: justify;
 }
 .intro{
     padding: 15px;
@@ -115,16 +155,47 @@ body{
 .card1 .cards1:hover{
     cursor: pointer;
     box-shadow:5px 5px 10px #fff;
-    transform: translateY(-2%);
+    transform: translateY(-2px);
 }
 .card2 .cards2:hover{
     cursor: pointer;
     box-shadow:5px 5px 10px #fff;
-    transform: translateY(-2%);
+    transform: translateY(-2px);
 }
-/* .table table{
-   width: 100%;
-   border-collapse: collapse;
-   text-align: center;
-   border
+.students p{
+    color: lightskyblue;
+    text-align: center;
+    font-size: 40px;
+}
+.table table{
+    margin: 30px;
+    width: 95%;
+    border-collapse: collapse;
+    text-align: center;
+    border: 2px solid lightskyblue;
+}
+.table th{
+    color:lightskyblue;
+    font-size: 30px;
+    padding: 20px;
+    background-color:rgb(0, 48, 78) ;
+}
+/* .table tr{
+    color: lightskyblue;
+    font-size: 20px;
 } */
+.table td{
+    padding: 20px;
+}
+.table tr:nth-child(odd){
+    background-color: rgb(27, 27, 27);
+}
+.table tr:hover{
+    /* color: lightskyblue; */
+    background-color: rgb(0, 0, 0);
+}
+ footer{
+    font-size: 20px;
+    text-align: center;
+    background-color: lightskyblue;
+}
