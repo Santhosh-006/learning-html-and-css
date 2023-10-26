@@ -27,9 +27,15 @@ body{
     display: flex;
     justify-content: flex-end;
     background-color: lightskyblue;
+<<<<<<< HEAD
     padding-right: 0px;
     z-index: 9999;
     padding: 12px 10px;
+=======
+    /* padding: 5px; */
+    z-index:9999;
+    
+>>>>>>> 3ec6e8657a73fef5ece8e469a5d2679404adf24b
     
 }
 
@@ -162,6 +168,7 @@ body{
     box-shadow:5px 5px 10px #fff;
     transform: translateY(-2px);
 }
+<<<<<<< HEAD
 .students p{
     color: lightskyblue;
     text-align: center;
@@ -199,3 +206,11 @@ body{
     text-align: center;
     background-color: lightskyblue;
 }
+=======
+/* .table table{
+   width: 100%;
+   border-collapse: collapse;
+   text-align: center;
+   border
+} */
+>>>>>>> 3ec6e8657a73fef5ece8e469a5d2679404adf24b
