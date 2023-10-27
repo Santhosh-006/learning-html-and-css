@@ -15,7 +15,7 @@ body{
     background-image: url(../image/bgi.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 50px;
+    /* height: 50px; */
 }
 .top h1{
     text-align: center;
@@ -25,26 +25,26 @@ body{
     position: sticky;
     top: 0%;
     display: flex;
-    justify-content: flex-end;
+    justify-content:space-between;
+    align-items: center;
     background-color: lightskyblue;
-<<<<<<< HEAD
     padding-right: 0px;
-    z-index: 9999;
+    z-index: 9;
     padding: 12px 10px;
-=======
-    /* padding: 5px; */
-    z-index:9999;
-    
->>>>>>> 3ec6e8657a73fef5ece8e469a5d2679404adf24b
     
 }
 
 .logo {
-    margin-right: auto;
+    /* margin-right: auto; */
     font-size: 20px;
+    text-align: center;
 }
+/* .navbar h1{
+    display: flex;
+    justify-content: center;
+} */
 .navbar h1 a{
-    padding: 20px;
+    /* padding: 20px; */
     text-decoration: none;
     color: #fff;
 }
@@ -56,26 +56,32 @@ body{
 .navbar li{
     display: inline;
 }
-.navbar li a{
-    color: #fff;
-    text-decoration: none;
+.navbar ul li{
+    font-size: 20px;
+    font-weight:bold;
     padding: 0px 50px;
     text-align: center;
     
+}
+.navbar ul li a{
+    color: #fff;
+    text-decoration: none;
 }
 .navbar li a:hover{
     cursor: pointer;
     color: #000;
     transition: 0.3s ease-in 0s;
 }
-.navbar button{
+.navbar ul li button{
     border-style: solid;
     border-width: 1px;
     border-color: #fff;
     background-color: transparent;
     border-radius: 20px;
     color: #fff;
-    margin: 5px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
 }
 .navbar button:hover{
     cursor: pointer;
@@ -84,40 +90,51 @@ body{
     transition: 0.3s ease 0s;
 }
  .content{
-    margin: 20px;
-    padding: 10px;
+    /* margin: 20px; */
+    padding: 30px;
+    padding-top: 60px;
     display: flex;
+    align-items: center;
+    
+}
+.content-image{
+    margin-left: 30px;
+}
+.content h1{
+    color: rgb(255, 147, 85);
 }
 .content p{
-    margin: 30px;
+    /* margin: 30px; */
     font-size: 25px;
-    justify-content: center;
     color: lightskyblue;
     text-align: justify;
     line-height: 1.5;
 }
 .content img{
-    margin-top: 30px;
+    /* margin-top: 30px; */
     border-radius: 50px;
+
 
 }
 .description{
+    padding: 30px;
+    padding-top:50px ;
     display: flex;
-    margin: 30px;
+    align-items: center;
+    /* margin: 30px; */
+}
+.description h1{
+    margin-left: 30px;
+    color: rgb(255, 147, 85);
 }
 .description iframe{
-    margin: 20px;
-    width:24opx;
     border-radius: 20px;
-    padding-top: 30px;
 }
 .description p{
-    margin: 30px;
+    margin-left: 30px;
     color: lightskyblue;
     font-size: 25px;
     line-height: 1.5;
-    width: 85%;
-    justify-content: center;
     text-align: justify;
 }
 .intro{
@@ -140,11 +157,12 @@ body{
 .cards1 {
     padding: 20px;
     margin: 10px;
+    margin-top: 40px;
     background-color:rgb(39, 39, 39);
-    border: 1px solid lightskyblue;
+    /* border: 1px solid lightskyblue; */
     border-radius: 30px;
     max-width: 400px;
-    box-shadow:5px 5px 10px #000;
+    box-shadow:2px 2px 5px #000;
 }
 .card2{
     display: flex;
@@ -152,23 +170,24 @@ body{
 .cards2{
     padding: 20px;
     margin: 10px;
+    margin-top: 30px;
     background-color:rgb(39, 39, 39);
-    border: 1px solid lightskyblue;
+    /* border: 1px solid lightskyblue; */
     border-radius: 30px;
     max-width: 400px;
-    box-shadow:5px 5px 10px #000;   
+    box-shadow:2px 2px 5px #000;   
 }
 .card1 .cards1:hover{
     cursor: pointer;
-    box-shadow:5px 5px 10px #fff;
+    box-shadow:5px 5px 8px #fff;
     transform: translateY(-2px);
+    transition: 0.5s 0.3s;
 }
 .card2 .cards2:hover{
     cursor: pointer;
     box-shadow:5px 5px 10px #fff;
     transform: translateY(-2px);
 }
-<<<<<<< HEAD
 .students p{
     color: lightskyblue;
     text-align: center;
@@ -199,18 +218,23 @@ body{
 }
 .table tr:hover{
     /* color: lightskyblue; */
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(66, 66, 66);
+}
+.star{
+    color: yellow;
 }
  footer{
     font-size: 20px;
     text-align: center;
-    background-color: lightskyblue;
+    background-color: rgb(46, 46, 46);
 }
-=======
-/* .table table{
-   width: 100%;
-   border-collapse: collapse;
-   text-align: center;
-   border
-} */
->>>>>>> 3ec6e8657a73fef5ece8e469a5d2679404adf24b
+footer p{
+    padding: 10px;
+    color:rgb(156, 156, 156);
+}
+footer p a{
+    color: lightskyblue;
+}
+.all{
+    font-size: 16px;
+}
